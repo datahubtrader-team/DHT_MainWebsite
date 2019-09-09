@@ -7,14 +7,14 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
 import { LandingComponent } from './landing/landing.component';
-import { LoginComponent } from './login/login.component';
+// import { LoginComponent } from './login/login.component';
 
 const routes: Routes =[
     { path: 'landing',          component: LandingComponent },  
     { path: 'home',             component: HomeComponent },
     { path: 'user-profile',     component: ProfileComponent },
     { path: 'register',           component: SignupComponent },
-    { path: 'login',          component: LoginComponent },
+    // { path: 'login',          component: LoginComponent },
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
