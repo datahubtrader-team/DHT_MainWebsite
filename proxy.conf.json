@@ -1,0 +1,28 @@
+{
+    "/api": {
+        "target": "http://localhost:3001",
+        "secure": false
+    },
+    "/hat": {
+        "target": "http://localhost:4020",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/getawsurls": {
+        "target": "http://localhost:4025",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/allsearchrequests": {
+        "target": "http://localhost:4025",
+        "secure": false
+    },
+    "/search-requests": {
+        "target": "http://localhost:4025",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}
