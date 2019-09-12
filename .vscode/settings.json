@@ -30,6 +30,7 @@
     "api/node_modules": "explorerExcludedFiles",
     "api/package-lock.json": "explorerExcludedFiles",
     ".env": "explorerExcludedFiles",
-    "package-lock.json": "explorerExcludedFiles"
+    "package-lock.json": "explorerExcludedFiles",
+    ".vscode": "explorerExcludedFiles"
   }
 }
