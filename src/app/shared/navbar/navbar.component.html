@@ -61,15 +61,19 @@
                     </div>
                 </li>
 
-                <li>
-                    <a href="http://localhost:4201" class="nav-link-inner--text" style="color:white;">Our product</a>
-                </li>
 
-                <!-- Our company -->
+                <!-- About us -->
                 <a class="nav-link no-caret" role="button">
                     <i class="ni ni-ui-04 d-lg-none"></i>
-                    <span class="nav-link-inner--text">Our company</span>
+                    <span class="nav-link-inner--text">About us</span>
                 </a>
+
+                <!-- Our product -->
+                <a class="nav-link no-caret" role="button" target="_blank" [routerLink]="['/register']">
+                    <i class="ni ni-ui-04 d-lg-none"></i>
+                    <span class="nav-link-inner--text">Our product</span>
+                </a>
+
 
                 <!-- <li class="nav-item dropdown">
                     <a class="nav-link no-caret" data-toggle="dropdown" role="button">
@@ -114,16 +118,11 @@
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
 
-                    <button class="btn btn-info">Log in <i class="fas fa-sign-in-alt ml-1"></i></button>
+                    <button class="btn btn-info" target="_blank" [routerLink]="['/register']">Log in <i class="fas fa-sign-in-alt ml-1"></i></button>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <!-- <a href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-navbar" target="_blank" class="btn btn-neutral btn-icon">
-                        <span class="btn-inner--icon">
-              <i class="fa fa-cloud-download mr-2"></i>
-            </span>
-                        <span class="nav-link-inner--text">Download</span>
-                    </a> -->
-                    <button type="button" class="btn btn-light">Sign up</button>
+
+                    <button type="button" class="btn btn-light" target="_blank" [routerLink]="['/register']">Sign up</button>
                 </li>
             </ul>
         </div>
